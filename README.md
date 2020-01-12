@@ -1,2 +1,2 @@
 # Restorative Priority Queue
- 
+  A custom generic priority queue where processed data can be restored to the queue in its original state without copying the queue or the popped data. This "original state" can be reset by clearing the garbage from the queue. Memory reallocation is powered by the ArrayList data structure but but memory allocation can be make more efficient through manual queue resets.
